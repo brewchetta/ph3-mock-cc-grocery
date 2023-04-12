@@ -61,8 +61,8 @@ build out any helper methods if needed.
 ### SQL Methods
 
 - `FoodItem save()`
-  - Creates a squirrel in the database if a FoodItem with the same id doesn't exist
-  - Updates a squirrel in the database if a FoodItem with the same id exists
+  - Creates a FoodItem in the database if a FoodItem with the same id doesn't exist
+  - Updates a FoodItem in the database if a FoodItem with the same id exists
 - `FoodItem increase_price(increase)`
   - Increments the price of the FoodItem by the `increase` parameter
   - This should be reflected in both the instance and the database
