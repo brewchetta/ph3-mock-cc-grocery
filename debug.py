@@ -9,7 +9,9 @@ if __name__ == '__main__':
     #  CREATE FOOD ITEMS TO TEST HERE ###
 
 
-
+    food1 = FoodItem("apple", 100.00)
+    food2 = FoodItem("pasta", 50.00)
+    food3 = FoodItem("chicken butt", 150.00)
 
 
     # ipdb.set_trace()
